@@ -1,0 +1,51 @@
+.calcRow {
+    display: flex;
+    height: 17.5%;
+    width: 100%;
+}
+
+.cell {
+    outline: solid 1px black;
+    padding: 5px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.cell:hover {
+    background-color: lightblue;
+}
+
+#textBox {
+    padding: 0px 10px 0px 0px;
+    font-size: 50px;
+
+}
+
+#historyBox {
+    padding: 10px 15px 0px 10px;
+    font-size: 20px;
+    color: rgb(92, 92, 92);
+}
+
+.topRow {
+    outline: solid 1px black;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+}
+
+#calculator {
+    height: 500px;
+    width: 400px;
+    display: block;
+}
+
+#screen {
+    display: flex;
+    justify-content: center;
+}
